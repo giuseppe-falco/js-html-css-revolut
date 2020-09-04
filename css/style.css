@@ -1,0 +1,116 @@
+*{
+    border:0;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* generic */
+/* reuse */
+
+/* /reuse */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.account-type>ul>li{
+    display: inline-block;
+}
+
+ul li{
+    cursor: pointer;
+    color:#888;
+    list-style:none;
+}
+nav>ul>li {
+    display: inline-block;
+}
+
+ul li:hover{
+    color:#111;
+}
+
+header{
+    height: 80px;
+    line-height:80px ;
+    width: 80%;
+    margin:0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-left{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+li, .download {
+    margin-left:30px;
+}
+.logo img{
+    width:150px;
+}
+
+
+
+.account-type li{
+    text-transform:uppercase;
+}
+
+.download-btn{
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #EB008D;
+    border-radius: 20px;
+}
+
+
+
+/* dropdown */
+nav>li{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-list {
+    display: none;
+    white-space: nowrap;
+    position: absolute;
+    padding: 10px 25px;
+    line-height: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.dropdown-list-item{
+    margin-left:0;
+
+}
+/* /dropdown */
+
+
+
+
+
+
+
+@media screen and (max-width: 1800px) {
+    header {
+      padding: 0 20px;
+      width: 100%;
+    }
+  }
